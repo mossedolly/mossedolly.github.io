@@ -1,7 +1,8 @@
 ################## Hero area ##################
 hero_area:
   enable : true
-  bg_image : "images/header.jpg"
+  #1920x699
+  bg_image : "images/cover-resized.png"
   overlay : true
 
 ################### Gallery ###################
@@ -9,21 +10,26 @@ gallery:
   enable : true
   title : "PLATS RECENTS"
   images:
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
+  #276x220
+    - "images/slider/dibi-poulet.png"
+    - "images/slider/mafe.png"
+    - "images/slider/mbakhal-saloum.png"
+    - "images/slider/mini-burger.png"
+    - "images/slider/soupe-kandia.png"
+    - "images/slider/thiebou-yape.png"
+    - "images/slider/thieboudieune-blanc.png"
+    - "images/slider/thiere-mboum.png"
+    - "images/slider/yassa-poulet.png"
+    - "images/slider/thiere-sim.png"
+    - "images/slider/thiou-tomate.png"
+    - "images/slider/vermicelle-poulet.png"
 
 ################ About #######################
 about:
   enable : true
   image : "images/cooker-img2.png"
   title : "A propos de <span> MosseDolly</span>"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  description : "Bienvenue chez MOSSEDOLLY ! Découvrez une cuisine qui évoque la nostalgie du Sénégal avec des plats faits maison, des ingrédients frais, de la viande halal et du poisson frais. Chez MOSSEDOLLY, l'authenticité se déguste à chaque bouchée, offrant une expérience culinaire unique qui allie saveurs sénégalaises et excellence maison. Venez savourer l'essence du Sénégal chez MOSSEDOLLY, où chaque plat raconte une histoire de passion et de qualité."
   
 ################# Blog ######################
 blog:
@@ -37,28 +43,57 @@ blog:
 pricing:
   enable : true
   title : "La <span>carte</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "MENU DE LA SEMAINE"
+  description: " Explorez nos saveurs sénégalaises uniques. Pour des commandes spéciales, appelez-nous 2 jours à l'avance. MOSSEDOLLY, l'essence d'une expérience culinaire inoubliable !"
+  subtitle : "MENU DE LA SEMAINE (LIVRAISON 7J/7 DANS BORDEAUX ET SES ALENTOURS)"
   pricing_item:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+  - title: "JUS - Bissap / Ginger"
+    description: "Infusion de fleurs d’hibiscus / Jus de gingembre."
+    price : "3.50 €"
+
+  - title: "ENTRÉE - Miniardises salées"
+    description: "Pastel au thon (beignet farcis au thon), Nems au poulet, Samosa au bœuf."
+    price : "6.50 €/6 pièces"
+
+  - title: "Thieboudiene rouge (tous les jours)"
+    description: "Composé de riz, de sauce tomate, mais également de différents légumes (carotte, manioc, chou …) et d’un poisson frais."
+    price : "14 €"
+
+  - title: "Yassa au poulet ou Vermicelle poulet (tous les mardis)"
+    description: "Yassa: Mélange de riz et d’oignons frits accompagnés de poulet mariné au citron. vermicelle: Plat à base de vermicelles, macédoine accompagné de poulet fermier dans sa sauce aux oignons"
+    price : "13 €"
+
+  - title: "Mafe au bœuf (tous les mercredis)"
+    description: "Plat composé de viande dans une sauce au beurre de cacahuète et servi avec du riz"
+    price : "13 €"
+
+  - title: "Thieboudiene blanc soul (tous les jeudis)"
+    description: "Composé de riz, mais également de différents légumes (carotte, manioc, chou …) et d’un poisson frais."
+    price : "14 €"
+
+  - title: "Soupoukandia (tous les jeudis)"
+    description: "Ragoût composé de gombos, poulet, crevette et huile de palme accompagné de riz parfumé"
     price : "15 €"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "10 €"
+  - title: "Couscous (tous les vendredis)"
+    description: "description a venir"
+    price : "14 €"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "20 €"
+  - title: "Poulet braisé accompagnement aloco ou atieke (tous les vendredis)"
+    description: "description a venir"
+    price : "14 €"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "45,50 €"
+  - title: "Domoda bœuf (tous les samedis)"
+    description: "Ragoût à base de viande, légumes, oignons et sauce tomate"
+    price : "13 €"
 
-  - title: "Pancakes n' Such"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+  - title: "Brunch (tous les dimanches)"
+    description: "brunch du dimanche en cours de composition"
     price : "25 €"
+
+  - title: "DESSERTS - Tiramisu / Fondant au chocolat"
+    description: "tiramisu speculoos ou oreo au choix "
+    price : "3.50 € / 3 €"    
+
 
 ################### Subscription ################
 subscription:

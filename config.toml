@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://mossedolly.github.io/"
+baseURL = "https://mossedolly.fr"
 languageCode = "fr"
 title = "MosseDolly"
 theme = "restaurant-hugo"
@@ -87,6 +87,7 @@ google_analitycs_id = "Your ID"
 main_sections = ["post"]
 # copyright
 #copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2024 by [MosseDolly](https://mossedolly.com)"
 
 # Preloader
 [params.preloader]
@@ -105,36 +106,37 @@ socialTitle = "NOUS <span>SUIVRE</span>"
 [[params.footer.contactItem]]
 title = "Telephone"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "06 14 55 46 20"
 
 [[params.footer.contactItem]]
 title = "Address"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Bordeaux | Merignac"
 
 [[params.footer.contactItem]]
 title = "E mail"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "mossedolly@gmail.com"
 
 ######################### footer gallery
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/mafe.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
+image = "images/slider/mbakhal-saloum.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
+image = "images/slider/mini-burger.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+image = "images/slider/soupe-kandia.png"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/thiebou-yape.png"
+
+[[params.footer.gallery]]
+image = "images/slider/thieboudieune-blanc.png"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]
@@ -145,9 +147,9 @@ link = "https://fb.com/themefisher"
 icon = "twitter"
 link = "https://fb.com/themefisher"
 
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
+#[[params.footer.socialLink]]
+#icon = "dribbble"
+#link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
 icon = "instagram"

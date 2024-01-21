@@ -96,10 +96,10 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>INFO</span> "
+contactInfoTitle = "NOUS <span>CONTACTER</span> "
 #blogTitle = "LATEST <span>BLOG POSTS</span>"
-galleryTitle = "PHOTO <span>STREAM</span>"
-socialTitle = "Follow <span>US</span>"
+galleryTitle = "DERNIERES <span>PHOTOS</span>"
+socialTitle = "NOUS <span>SUIVRE</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
